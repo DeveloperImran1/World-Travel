@@ -1,0 +1,118 @@
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .navbar-logo .world, .navbar-logo .travel{
+        font-size: 21.543px;
+    }
+    .navbar ul {
+        display: block;
+    }
+
+    .background-image {
+        height: 483px;
+    }
+
+    .background-image-content h1 {
+        font-size: 22px;
+    }
+
+    .background-image-content p {
+        width: 304px;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0 auto
+    }
+
+    .travel-find-field {
+        flex-direction: column;
+        width: 287px;
+        gap: 16px;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .travel-find-field input,
+    .travel-find-field button {
+        width: 255px;
+    }
+
+    /* popular section  */
+    .popular-section {
+        flex-direction: column;
+
+    }
+
+    .popular-section-content p,
+    .popular-section-content li {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .popular-section-image img {
+        margin-top: 24px;
+    }
+
+    /* destination section style  */
+    .destination-section-content h1 {
+        font-size: 20px;
+    }
+    .destination-section-content p {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .destination-section-images {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 176px);
+        .maldives, .indonesia, .srilanka, .america, .kashmir, .bangladesh,  .bandarban 
+         {
+            grid-column: 1 / 13;
+        }
+     }
+
+     /* why chose us section starst  */
+     .choose-us-section-heading h1 {
+        font-size: 20px;
+    }
+    .choose-us-section-heading p {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .choose-us-section-card {
+  
+        grid-template-columns: 1fr;
+        grid-template-rows: 289px 289px 289px;
+     
+    }
+    .handpicked {
+        grid-column: 1 / 13;
+
+    }
+    
+    .world-class {
+        grid-column: 1 / 13;
+    }
+    
+    .best-price {
+        grid-column: 1 / 13;
+    }
+    .choose-us-section-card img {
+        width: 48px;
+        height: 48px;
+    }
+    .choose-us-box h3 {
+        font-size: 20px;
+    }
+    .choose-us-box p {
+        width: 271px;    
+        font-size: 14px; 
+        line-height: 24px;
+    }
+
+}

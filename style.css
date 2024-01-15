@@ -107,7 +107,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+    
 }
 
 .travel-find-field {
@@ -278,37 +278,28 @@ body {
 }
 
 .maldives {
-
     grid-column: 1 / 7;
 }
 
 .indonesia {
-
     grid-column: 7 / 13;
 }
-
 .srilanka {
-
     grid-column: 1 / 4;
 }
-
 .america {
-
     grid-column: 4 / 10;
 }
 
 .kashmir {
-
     grid-column: 10 / 13;
 }
 
 .bangladesh {
-
     grid-column: 1 / 5;
 }
 
 .bandarban {
-
     grid-column: 5 / 13;
 }
 
