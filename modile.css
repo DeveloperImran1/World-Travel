@@ -115,4 +115,168 @@
         line-height: 24px;
     }
 
+/* discount section style here  */
+
+.discount-section-heading h3 {
+    font-size: 20px;
+}
+.discount-section-heading p {
+    width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.discount-section-first-part,.discount-section-second-part {
+
+}
+.discount-section-box {
+    width: 303px;
+    height: 376px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.discount-section-box {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.discount-section-box-content {
+    padding: 10px;
+}
+.discount-section-box-icons {
+    gap: 0px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+
+}
+.first{
+    grid-column: 1 / 3;
+}
+.discount-section-box .place-name {
+    font-size: 20px; 
+}
+.discount-section-box .place-description {
+    width: 254px; 
+    font-size: 14px;
+    line-height: 24px;
+}
+.discount-section-box .place-price {
+    font-size: 16px;
+}
+.discount-section-box button {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+}
+
+
+/* perfect-place section style here  */
+.perfect-place{
+    flex-direction: column;
+}
+.perfect-place-content h1 {
+    width: 248px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.perfect-place-content p, .perfect-place-content ul li  {
+    width: 300px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.perfect-place-img img{
+    width: 100%;
+    height: 200px;
+}
+.perfect-place-img-content {
+    top: 60px;
+    left: 44px;
+}
+.perfect-place-img-content p {
+    font-size: 20px;
+    line-height: 30px; 
+}
+.perfect-place-img-icon {
+  
+    top: 152px;
+    left: 16px;
+    display: flex;
+
+}
+.playing-bar {
+    width: 90%;
+    top: 188px;
+    left: 16px;
+}
+/* news-letter section style start here  */
+
+.news-letter {
+    margin-top: 16px;
+ flex-direction: column;
+ gap: 16px;
+}
+.news-letter-form {
+    width: 335px;
+
+}
+.news-letter-form-content {
+    padding: 23px; 
+}
+.news-letter-form h4 {
+    font-size: 20px;
+}
+.news-letter-form p {
+    width: 270px;  
+    font-size: 14px;
+    line-height: 24px;
+}
+.news-letter-form hr {
+    width: 288px;
+}
+.news-letter-form input {
+    width: 288px;
+
+}
+.news-letter-form button {
+    width: 288px;
+}
+.news-letter-img img {
+    height: 300px;
+}
+.news-letter-img .image-card {
+    width: 214px;
+    height: 79px;
+}
+.news-letter-img .image-card p {
+    font-size: 15px;
+}
+.news-letter-img .image-card h2 {
+    font-size: 21px;
+}
+.news-letter-img .image-card {
+
+    top: 189px;
+    left: 120px;
+}
+
+/* footer section style here  */
+footer {
+    height: 309px;
+}
+.footer-logo h2 {
+    font-size: 21px;
+}
+.footer-para {
+    width: 287px;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer hr {
+    width: 335px;
+}
+
+
 }
